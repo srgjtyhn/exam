@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js1</title>
+	<style>
+		#info{
+			background: yellow;
+			color: orange;
+			border: solid 1px;
+			border-radius: 5px;/* 圆角 */
+			width: 100px;
+			padding: 2px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<!-- 鼠标放到input上时，让info显示 -->
+	<!-- 鼠标离开input时，让info隐藏 -->
+	<input type="checkbox" name="mian" id="mian" onmouseover="info.style.display='block'"onmouseout="info.style.display='none'">
+	<!-- 打钩框 --><!-- 1.info时元素的id。2.style是元素的样式（元素的各个样式）。3.display是具体的display属性。4.= 赋值 把…变成… -->
+	<div id="info">为了您的信息安全，为了您的信息安全</div>
+	
+</body>
+</html>
